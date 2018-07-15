@@ -55,6 +55,9 @@ h1 {
      .viewport-header {
         opacity: 1;
     }
+     video {
+            display: none;
+        }
 }
 
 @media only screen and (max-width: 960px) {
