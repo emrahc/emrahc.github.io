@@ -47,10 +47,19 @@ h1 {
     font-family: 'Indie Flower', cursive;
     font-size: 3rem;
 }
+a{
+    text-decoration: none;
+    color: #DFF9FBFF;
+    font-size: 1.5rem;
 
+}
 @media only screen and (max-width: 600px) {
     h1 {
         font-size: 1rem;
+    }
+
+    a{
+        font-size:1rem;
     }
      .viewport-header {
         opacity: 1;
@@ -65,3 +74,4 @@ h1 {
         font-size: 2rem;
     }
 }
+
