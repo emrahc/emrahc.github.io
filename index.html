@@ -1,0 +1,317 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="/css/materialize.min.css">
+  <link href="/css/lity.css" rel="stylesheet">
+	
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Uka Medya</title>
+  <style>
+    header{
+      background: url("/img/computer3.jpg");
+      background-size: cover;
+      background-position: center;
+      min-height: 1000px;
+    }
+
+    #tooltipped{
+        background-color:#9e9167;
+
+    }
+    .promo{
+        font-size: 1.5rem;
+    }
+
+    .promo i{
+        color:#9e9167;
+    }
+    @media screen and (max-width: 670px){
+      header{
+        min-height: 500px;
+      }
+      #ukalogo{
+        margin-top: 10vh;
+    }
+    }
+    .section{
+      padding-top: 4vw;
+      padding-bottom: 4vw;
+    }
+    .tabs .indicator{
+      background-color: #1a237e;
+    }
+    .tabs .tab a:focus, .tabs .tab a:focus.active{
+      background: transparent;
+    }
+    #ukalogo{
+        margin-top: 15vh;
+        animation: yourAnimation 2.5s 1 0s ease-out;
+    }
+
+    @keyframes yourAnimation{
+    0%{
+        transform: scale(0);
+        opacity: 0.5;
+        }
+    90%{
+        }
+    100%{
+        transform: rotate(xx) scale(1);
+        opacity: 1;
+        }
+}
+
+@keyframes ajansanimation{
+    0%{
+        transform: translateY(200px);
+        opacity: 0.1;
+        letter-spacing: 15px;
+
+    
+        }
+        90%{
+            transform: translateY(-10px);
+
+        }
+    100%{
+        transform: rotate(xx) translateY(0px);
+        opacity: 1;
+        }
+}
+
+#ukaslogan{
+    animation: ajansanimation 2.5s 1 0s ease-in-out;
+}
+
+ .conta {
+	position: relative;
+	width: 100%;
+	max-width: 450px;
+  }
+  
+ 
+  
+   .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	-webkit-transition: .3s ease;
+	-o-transition: .3s ease;
+	transition: .3s ease;
+	background-color: rgb(12, 11, 11);
+  }
+  
+   .conta:hover .overlay {
+	opacity: 0.7;
+  }
+  
+   .icon {
+	color: white;
+	font-size: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+  }
+  
+  /* When you move the mouse over the icon, change color */
+  .fa-user:hover {
+	color: rgb(184, 96, 96);
+  } 
+  </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent">
+      <div class="container">
+        <a href="#" class="brand-logo">Uka Medya</a>
+        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#photos">Hakkımızda</a></li>
+          <li><a href="#services">Yaptıklarımız</a></li>
+          <li><a href="#contact">İletişim</a></li>
+          <li><a href="#" id="tooltipped" class="tooltipped btn-floating btn-small " data-position="bottom" data-tooltip="Instagram"> 
+            <i class="fab fa-instagram"></i>
+          </a></li>
+          <li><a href="#"id="tooltipped" class="tooltipped btn-floating btn-small " data-position="bottom" data-tooltip="Linkedin">
+            <i class="fab fa-linkedin"></i>
+          </a></li>
+        
+        </ul>
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+                <li><a href="#photos">Hakkımızda</a></li>
+                <li><a href="#services">Yaptıklarımız</a></li>
+                <li><a href="#contact">İletişim</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+    <img src="/img/ukalogosaydam.png" alt="ukalogo" id="ukalogo" class="responsive-img "/>
+        <h3 id="ukaslogan"class="blue-grey-text text-lighten-4 center">Dijital Medya Ajansı</h2>
+
+    </div>
+</header>
+ <section class="container section scrollspy" id="photos">
+            <div class="row">
+                <div class="col l12 s12 center">
+                    <h1 class="grey-text text-darken-2">Uka Medya;</h1>
+                    <p class="flow-text">Markanın yaratımı ve kimliğiyle başlayan süreçte <strong>maceracı </strong> müşterileri için tüm mecraları keyifle kullanıp, istenen algıyı yaratan bir dijital medya şirketidir.</p>
+
+                </div>
+            </div>
+        <div class="row">
+                <div class="col l4 s12">
+                  <div class="center promo promo-example">
+                    <i class="large material-icons">comment</i>
+                    <p class="promo-caption">Marka </p>
+                    <p class="light center">Ürününüzü,hizmetinizi alıp  yakışıklı ve güzel bir <strong> Marka </strong>haline getirerek <strong> Kurumsal Kimlik</strong> kazandırırız. Ayakları yere sağlam basar.</p>
+                 
+                  </div>
+                </div>
+                <div class="col l4 s12">
+                  <div class="center  promo">
+                    <i class="large material-icons">computer</i>
+                    <p class="promo-caption">Etkileşim</p>
+                    <p class="light center">Markanızın <strong>Web Tasarımı'nı</strong> yapar <strong>SEO Optimizasyonu</strong>'nu hallederiz. Ardından <strong>
+                        Grafik Tasarım
+                    </strong>  ve <strong>Sosyal Medya Yönetimi</strong>'ni yaparken aradan <strong>Mobil Uygulama</strong>'yı da çıkartırız.' </p>
+
+                </div>
+                </div>
+                <div class="col l4 s12">
+                  <div class="center promo promo-example">
+                    <i class="large material-icons">camera_alt</i>
+                    <p class="promo-caption">Yapım</p>
+                    <p class="light center">Bütün bunlar yetmezse; <strong>Fotoğraf</strong> ve <strong>Tanıtım Filmi</strong> çekeriz, <strong>Tv'de yayınlarız </strong>. Üstüne  
+                        <strong>Viral Reklam </strong> ve <strong> Post Prodüksiyon</strong> yapıp <strong> Seslendirme</strong>'sini yaparız.   </p>
+                  </div>
+                </div>
+              </div>
+ </section>
+  
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/masa.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- services / tabs -->
+  <section class="section container scrollspy" id="services">
+    <div class="row">
+        <h2  class="center grey-text text-darken-2">Yaptıklarımız;</h2>
+      <div class="col s12 l4">
+          <div class="conta"> 
+            <img src="/img/hyundai.jpg" alt="" class="responsive-img"/>
+            <div class="overlay">
+                    <a class="icon" href="https://vimeo.com/220284977" data-lity>									<i class="fa fa-play"></i>
+                    </a>
+              </a>
+            </div>
+        </div>
+            <h4 class="center grey-text text-darken-2">Hyundai Elentra</h3>
+                <h6 class="center grey-text text-darken-2">Yönetmen: <strong>Hakan Ağseren</strong> </h6>
+
+      </div>
+      <div class="col s12 l4">
+            <div class="conta ">
+
+            <img src="/img/turanlarscheider.jpg" alt="" class="responsive-img"/>
+            <div class="overlay">
+                    <a href="https://vimeo.com/238173679" class="icon" data-lity>
+                      <i class="fa fa-play"></i>
+                    </a>
+                  </div>
+            </div>
+            <h4 class="center grey-text text-darken-2">Schneider Turanlar</h4>
+            <h6 class="center grey-text text-darken-2">Yönetmen: <strong>Hakan Ağseren</strong> </h6>
+
+          </div> <div class="col s12 l4">
+              <div class="conta ">
+                <img src="/img/boschkadınlargünü.jpg" alt="" class="responsive-img"/>
+                <div class="overlay">
+                        <a class="icon" href="						https://vimeo.com/161462069
+                        " data-lity>									<i class="fa fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+                <h4 class="center grey-text text-darken-2">Bosch Kadınlar Günü</h3>
+                    <h6 class="center grey-text text-darken-2">Yönetmen: <strong>Hakan Ağseren</strong> </h6>
+
+              </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/stars.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+ 
+
+  <!-- footer -->
+  <footer class="page-footer grey darken-3" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12 center">
+          <h5 class="center">Mail Atın</h5>
+        <a class="center"   href="mailto:info@ukamedya.com"><h6>info@ukamedya.com</h6> </a>
+        </div>
+        <div class="col l12   s12 center">
+          <h5 class="white-text">Sosyal Ağlar</h5>
+          <ul>
+              <li><a class="grey-text text-lighten-3" href="#">Linked In</a></li>
+            <li><a class="grey-text text-lighten-3" href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-4">
+      <div class="container center-align">&copy; 2018 Uka Medya</div>
+    </div>
+  </footer>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="/js/lity.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+      $('.datepicker').datepicker({
+        disableWeekends: true,
+        yearRange: 1
+      });
+      $('.tooltipped').tooltip();
+      $('.scrollspy').scrollSpy();
+    });
+  </script>
+</body>
+</html>
